@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Kelly Keenan - Over the top CMS</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Montagu+Slab:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../kstyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style>
+		h3 {
+			color: #3341BB;
+		}
+
+		body {
+			background-color: white;
+			color: #141414;
+		}
+	</style>
+</head>
+<body>
+<div class="hero" style="background-color: #6265B1;">
+		<div class="box_full cmshero" style="height: 690px; ">
+		</div>
+
+		<div class="herotxt">
+			<div class="herotitle white">
+				Over the top CMS
+			</div>
+			<div class="herodesc white">
+				Modernizing media management for streaming platforms.
+			</div>
+
+			<div class="herostats white">
+				<div>
+					<div class="herostats_title">Platforms</div>
+					<div class="herostats_items">Web, Mobile</div>
+				</div>
+				<div>
+					<div class="herostats_title">Skills</div>
+					<div class="herostats_items">Design System, UI, Prototyping</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div class="master">
+
+	<div class="box_middle">
+		<h3>Component driven design</h3>
+		<p>Deadlines were tight, as always, and we were under a lot of pressure to harmonize two totally different CMS’s that were the brains of two very different streaming platforms, fast.</p>
+
+<p>After a couple weeks of research and interviewing the current cms editors on both systems, we were able to identify the pain points and requests for new features to help with their daily routines. Once we had this data, it was time to learn the actual pipeline for adding shows and movies to the streaming platform and seeing them online. That part took weeks, so we decided to start designing components that we know would be essential in this table and form heavy design system.</p>
+
+<p>We started with very plain unstyled components, and later were able to revisit them to adapt branding and ease of use into them. Not the ideal way to go about a design system, but this let the developers get going while we were still gathering our design marbles.</p>
+	</div>
+
+	<div class="box_thirds">
+		<div><img src="../img/cms_component1.png" width="100%"></div>
+		<div><img src="../img/cms_component2.png" width="100%"></div>
+		<div><img src="../img/cms_component3.png" width="100%"></div>
+	</div>
+
+	<div class="box_twothird">
+		<div class="item_onethird">
+			<h3>Daily analytics</h3>
+			<p>Daily and monthly reports on system inventory was major pain for current users, and we were shocked ot find out they were just adding up items in spreadsheets.</p>
+
+			<p>We added a full dashboard to give a quick overview of the current media library, and how it compared month over month, and eventually year over year (once we had that historical data). </p>
+
+			<p>Stats were able to be filtered by membership tier, and then broken down by the main categories of tv shows, films etc.</p>
+	
+			<p>In addition to the dashboard, users were still able to choose from a list of common reports they would have to produce regularly, preview in a nice table, and then download to excel format. We could even filter those reports to only show a certain date range.</p>
+		</div>
+		<div class="item_twothird">
+			<img src="../img/cms_dashboard.png" width="100%">
+		</div>
+	</div>
+
+
+	<div class="box_twohalf mobile_bulk">
+		<div class="item_onehalf">
+			<img src="../img/cms_bulk.png" width="100%">
+		</div>
+		<div class="item_onehalf">
+			<h3>Editing in bulk</h3>
+			<p>There was lots of focus on repetitive tasks from our user interviews. Many times we found that a change needed to be made to a whole season of a show, and that had to be done to each episode individually.</p>
+			<p>We created a bulk edit modal that would apply changes to whatever items are selected in a media table. The controls and features were a bit too robust to have in the header of a table, so we created a modal to make these bulk changes.
+			Users can apply multiple date windows across multiple titles at once, as well as add yes/no options to each title.</p>
+			<p>We decided on having an extra tab that would serve as a visual reminder of the titles that would be affected by the bulk edit. Quick user testing with a prototype showed this was more effective than just relying on a confirmation window.</p>
+		</div>
+	</div>
+
+	<div class="box_twohalf" style="margin-bottom: 40px;">
+		<div class="item_onehalf">
+			<h3>Tables and forms</h3>
+			<p>We quickly found out that most of the CMS will be tables and form fields. There was just so much data and media being handled that a table was always the best way to show it all.</p>
+			<p>Supercharging these tables was paramount, and adding powerful but easy to use controls atop each one was top priority. We took a lot of notes from other sites handling large data in simple ways like Google Fonts and Notion.</p>
+			<p>The users of the CMS would all be concidered power users, so having sortable tables by columns and search fields was a common ask. Giving users the power to display their selection of data in precise ways all while keeping it simple was always at the forefront of our design language.</p>
+		</div>
+		<div class="item_onehalf">
+			<h3>Creating Lineups</h3>
+			<p>Creating lineups served as an abstract way of grouping content into a folder. Once a lineup was created, the user could then use that grouping in a swimlane on the homepage, as the content of a carousel, as the source for a collection etc.</p>
+
+			<p>It’s one of the more powerful flows in the CMS, and we wanted to simplify it without losing any capabilities. Main details for the lineup appeard up top, while the content appeared in a table below. </p>
+
+			<p>Visual thumbnails were inserted into each row to remind the user exactly what piece of content they were inserting, along with other power features like toggling visibility and checking it’s online status in the catalogue.</p>
+		</div>
+	</div>
+
+	<div class="box_twohalf" style="margin: 0px 0px;">
+		<div class="item_onehalf">
+			<img src="../img/cms_media.png" width="100%">
+		</div>
+		<div class="item_onehalf">
+			<img src="../img/cms_lineup.png" width="100%">
+		</div>
+	</div>
+	<div class="box_twohalf" style="margin: 0px 0px;">
+		<div class="item_onehalf">
+			<img src="../img/cms_feature.png" width="100%">
+		</div>
+		<div class="item_onehalf">
+			<img src="../img/cms_lineup2.png" width="100%">
+		</div>
+	</div>
+
+	<div class="spacer_40"></div>
+
+	<div class="box_twohalf">
+		<div class="item_onehalf">
+			<h3>Global Search</h3>
+			<p>One of the key user needs we took away from interviews was the ability to quickly get to a show or episode in the CMS.</p>
+			<p>Users all had different tricks and paths to get to those desired pages, but all were workarounds. We decided having a global search would be a useful enough function to always be persistent in the main header. We wanted them to get to their desired page as quickly as possible, so no messing around with search results pages, all results would show right there in an autocomplete dropdown box. Result information was concise showing 2 lines and an image for each result. One line was the actual media title and the other line was secondary information like show or type of media.</p>
+			<p>Keyboard navigation was later added for both accessibility requirements but also just to speed up getting to where you wanted to go.</p>
+		</div>
+		<div class="item_onehalf">
+			<img src="../img/cms_search.png" width="100%">
+		</div>
+	</div>
+
+
+	<div class="box_middle">
+		<h3>Early stages</h3>
+		<p>The hardest part early on was just figuring out how the two seperate CMS’s worked, and getting a handle on the actual everyday userflows. The systems were overly complex, and in CBC’s case, they used software created by IBM that clearly over delivered and left many new users to the team frustrated.</p>
+
+		<p>We completed dozens of interviews on both sides and started piecing together how we thought a typical userflow would act, and then we would go back to the users with our rough wireframes to make sure everything made sense.</p>
+
+		<p>Once all of those were approved we could start designing the actual UI components and functionality that made a complex system look a lot more friendly.</p>
+	</div>
+
+		<div class="spacer_40"></div>
+
+
+	<div class="box_full cmshero_wires">
+	</div>
+
+		<div class="spacer_60"></div>
+	<div class="spacer_60"></div>
+	<div class="spacer_60"></div>
+	<div class="spacer_60"></div>
+		<div class="spacer_30"></div>
+
+	<a href="longform.html">
+	<div class="next_items" style="background-color: #3341BB">
+		<div class="next_two">
+			<div class="next_title">
+				<div>Next</div>
+				<div class="next_project">Longform Stories</div>
+			</div>
+			<div><img src=../img/right_arrow.svg width="55px"> </div>
+		</div>
+	</div>
+	</a>
+
+
+	<div class="footer">
+		<div class="footflex">
+			<div class="contactme">
+				<div class="contactmoi">
+				Contact Me
+				</div>
+				<div class="address">
+					<div>127 Prince Edward Drive<br><br>Toronto, Ontario, Canada</div>
+					<div>E Kellykeenan@gmail.com<br><br>T 647 974 9467</div>
+				</div>
+			</div>
+			<div class="social">
+				<div class="contactmoi">
+					Social
+				</div>
+
+				<div class="address">
+					<div><a href="http://www.linkedin.com/in/kelkeenan" target="_blank">LinkedIn</a><br><br><a href="https://www.instagram.com/yoquierotacokell" target="_blank">Instagram</a><br><br><a href="https://nbatopshot.com/user/@MagicBronson/moments" target="_blank">Top Shot</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="back">
+	<a href="../index.html">
+	<svg class="backy" width="50" height="50" viewBox="0 0 50 50" fill="#c6c6c6" xmlns="http://www.w3.org/2000/svg">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25ZM26.4083 16.4461C27.1926 17.2239 27.1979 18.4902 26.4201 19.2745L21.8001 23.9332H33C34.1046 23.9332 35 24.8286 35 25.9332C35 27.0378 34.1046 27.9332 33 27.9332H21.8002L26.4201 32.5917C27.1979 33.376 27.1926 34.6423 26.4083 35.4201C25.624 36.1979 24.3577 36.1926 23.5799 35.4083L15.591 27.3526C15.5499 27.3118 15.5106 27.2693 15.4732 27.2251C15.3517 27.0818 15.2535 26.9254 15.1788 26.761C15.0652 26.5113 15.0013 26.2342 15 25.9424C15 25.9393 15 25.9362 15 25.9332C15 25.9269 15 25.9207 15.0001 25.9144C15.0024 25.6583 15.0529 25.4137 15.143 25.1892C15.2396 24.9476 15.3853 24.7211 15.5799 24.5248L23.5799 16.4579C24.3577 15.6736 25.624 15.6683 26.4083 16.4461Z" />
+	</svg>
+	</a>
+</div>
+
+<div class="cursor"></div>
+</body>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+var cursor = $(".cursor");
+
+    $(window).mousemove(function(e) {
+        cursor.css({
+            top: e.clientY - cursor.height() / 2,
+            left: e.clientX - cursor.width() / 2
+        });
+    });
+
+	$(".toronto")
+        .mouseenter(function() {
+            cursor.css({
+                   background: "url(https://upload.wikimedia.org/wikipedia/commons/4/4b/Raccoon_getting_in_trouble_%28cropped%29.jpg) center",
+                   "background-size": "cover",
+                   width: "160px",
+                   height: "160px",
+                   "mix-blend-mode": "normal"
+
+            });
+        })
+        .mouseleave(function() {
+            cursor.css({
+                background: "",
+                width: "15px",
+                height: "15px",
+                "mix-blend-mode": "difference"
+            });
+        });
+
+    $(".kelly")
+        .mouseenter(function() {
+            cursor.css({
+                   background: "url(https://upload.wikimedia.org/wikipedia/commons/4/4b/Raccoon_getting_in_trouble_%28cropped%29.jpg) center",
+                   "background-size": "cover",
+                   width: "160px",
+                   height: "160px",
+                   "mix-blend-mode": "normal"
+
+            });
+        })
+        .mouseleave(function() {
+            cursor.css({
+                background: "",
+                width: "15px",
+                height: "15px",
+                "mix-blend-mode": "difference"
+            });
+        });
+
+    $("a")
+        .mouseenter(function() {
+			cursor.css({
+                transform: "scale(1.7)"
+            });
+        })
+        .mouseleave(function() {
+           cursor.css({
+                transform: "scale(1)"
+            });
+        });
+});
+</script>
+</html>

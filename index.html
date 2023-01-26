@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- I MADE THIS ALL FROM SCRATCHHHHH -->
+
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Kelly Keenan</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montagu+Slab:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="kstyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="master">
+
+	<div class="headinfo">
+		<div>E Kellykeenan@gmail.com<br>
+			 T 647 974 9467
+		</div>
+
+		<div><a href="http://www.linkedin.com/in/kelkeenan" target="_blank">LinkedIn</a>
+		</div>
+	</div>
+
+	<div class="heading">
+		Hello! I’m <span class="title kelly">Kelly</span>, a product designer and pizza lover living the life in <span class="title toronto">Toronto</span>.
+	</div>
+
+	<div class="subheading">
+		<p>For the last 10+ years I've been envolved in helping everyone from startups to agencies to big corporations, designing and mentoring teams of super talented creatives.</p>
+		<p>Collaborating and bringing out the best in others is my jam, and I definitely strive to make working with yours truly an experience in positivity. I've been known to bombard my coworkers with unsolicited photos of my new baby, explain in great detail my love for Dominos, and talk basketball all day long.</p>
+		<p>When im not designing thoughtful products you can find me scouring ebay for motorcycle parts, running in my short shorts, and cooking up a storm in the kitchen.</p>
+		<p>Check out my work below and say hi!</p>
+	</div>
+
+	<div class="worky">
+		<a href="worky/cbcgem.html">
+		<div class="workitem">
+			<div>
+				<div class="worktitle">
+					CBC Gem
+				</div>
+				<div class="workdesc">
+					Canada’s version of Netflix, only more polite
+				</div>
+			</div>
+			<div class="tagholder">
+				<div class="tag">Design System</div>
+				<div class="tag">Web</div>
+				<div class="tag">App</div>
+				<div class="tag">tvOS</div>
+			</div>
+		</div>
+		</a>
+
+		<a href="worky/ottcms.html">
+		<div class="workitem">
+			<div>
+				<div class="worktitle">
+					Over The Top CMS
+				</div>
+				<div class="workdesc">
+					Redesigning the way producers promote content
+				</div>
+			</div>
+			<div class="tagholder">
+				<div class="tag">Design System</div>
+				<div class="tag">Web</div>
+			</div>
+		</div>
+		</a>
+
+		<a href="worky/longform.html">
+		<div class="workitem">
+			<div>
+				<div class="worktitle">
+					Longform Stories
+				</div>
+				<div class="workdesc">
+					Special edition stories with rich content and journalism
+				</div>
+			</div>
+			<div class="tagholder">
+				<div class="tag">Design System</div>
+				<div class="tag">Web</div>
+				<div class="tag">Mobile</div>
+			</div>
+		</div>
+		</a>
+
+		<a href="worky/elections.html">
+		<div class="workitem">
+			<div>
+				<div class="worktitle">
+					Municipal Elections
+				</div>
+				<div class="workdesc">
+					Making live election results come in clear and concise
+				</div>
+			</div>
+			<div class="tagholder">
+				<div class="tag">Info Design</div>
+				<div class="tag">Research</div>
+				<div class="tag">Web</div>
+			</div>
+		</div>
+		</a>
+
+		<a href="worky/hooters.html">
+		<div class="workitem" style="border-bottom: 0px;">
+			<div>
+				<div class="worktitle">
+					Hootsuite Labs
+				</div>
+				<div class="workdesc">
+					Explorations of new ideas in social media
+				</div>
+			</div>
+			<div class="tagholder">
+				<div class="tag">App</div>
+				<div class="tag">Web</div>
+				<div class="tag">Social Media</div>
+			</div>
+		</div>
+		</a>
+	</div>
+
+	<div class="spacer_60"></div>
+	<div class="spacer_60"></div>
+
+	<div class="footer">
+		<div class="footflex">
+			<div class="contactme">
+				<div class="contactmoi">
+				Contact Me
+				</div>
+				<div class="address">
+					<div>127 Prince Edward Drive<br><br>Toronto, Ontario, Canada</div>
+					<div>E Kellykeenan@gmail.com<br><br>T 647 974 9467</div>
+				</div>
+			</div>
+			<div class="social">
+				<div class="contactmoi">
+					Social
+				</div>
+
+				<div class="address">
+					<div><a href="http://www.linkedin.com/in/kelkeenan" target="_blank">LinkedIn</a><br><br><a href="https://www.instagram.com/yoquierotacokell" target="_blank">Instagram</a><br><br><a href="https://nbatopshot.com/user/@MagicBronson/moments" target="_blank">Top Shot</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="cursor"></div>
+</body>
+
+
+
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+var cursor = $(".cursor");
+
+    $(window).mousemove(function(e) {
+        cursor.css({
+            top: e.clientY - cursor.height() / 2,
+            left: e.clientX - cursor.width() / 2
+        });
+    });
+
+	$(".toronto")
+        .mouseenter(function() {
+            cursor.css({
+                   background: "url(https://upload.wikimedia.org/wikipedia/commons/4/4b/Raccoon_getting_in_trouble_%28cropped%29.jpg) center",
+                   "background-size": "cover",
+                   width: "160px",
+                   height: "160px",
+                   "mix-blend-mode": "normal"
+
+            });
+        })
+        .mouseleave(function() {
+            cursor.css({
+                background: "",
+                width: "15px",
+                height: "15px",
+                "mix-blend-mode": "difference"
+            });
+        });
+
+    $(".kelly")
+        .mouseenter(function() {
+            cursor.css({
+                   background: "url(img/moi.png) center",
+                   "background-size": "cover",
+                   width: "160px",
+                   height: "160px",
+                   "mix-blend-mode": "normal"
+
+            });
+        })
+        .mouseleave(function() {
+            cursor.css({
+                background: "",
+                width: "15px",
+                height: "15px",
+                "mix-blend-mode": "difference"
+            });
+        });
+
+    $("a")
+        .mouseenter(function() {
+			cursor.css({
+                transform: "scale(1.7)"
+            });
+        })
+        .mouseleave(function() {
+           cursor.css({
+                transform: "scale(1)"
+            });
+        });
+});
+</script>
+</html>

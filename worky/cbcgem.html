@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Kelly Keenan - CBC Gem</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Montagu+Slab:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../kstyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body style="background-color: #222222">
+
+
+
+<div class="hero" style="background-color: #141414;">
+		<div class="box_full gemhero">
+		</div>
+
+		<div class="herotxt">
+			<div class="herotitle">
+				CBC Gem
+			</div>
+			<div class="herodesc">
+				Creating a brand new accessible design for bringing streaming Canadian content to the masses.
+			</div>
+
+			<div class="herostats">
+				<div>
+					<div class="herostats_title">Platforms</div>
+					<div class="herostats_items">iOS, Android, Web, TvOS</div>
+				</div>
+				<div>
+					<div class="herostats_title">Skills</div>
+					<div class="herostats_items">Design System, Research, UI/UX</div>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div class="master">
+
+	<div class="box_middle">
+		<h3>Two languages,two audiences</h3>
+		<p>The project’s driving responsibility was to harmonize the current streaming platforms that existed in French Canada and English Canada. They both had different names, different audience reach, different libraries, but ultimately shared the same goal - deliver first class Canadian films and documentaries to the entire country.</p>
+		<p>
+		Creating ONE design system that could be used between both products would not only strengthen the visual identities of CBC and their french counterparts, but also development of components would happen once. Create a component for one side, and the other side automatically gets it for free.</p>
+		<p>
+		The idea was born to create a design system of identical UX, and apply seperate themes to the french and english products. We would try to keep everything identical, but still allow each product’s own flavour to come through in colours, language and branding.</p>
+	</div>
+
+	<div class="box_twohalf">
+
+		<div><img src="../img/gem_tabletl.png" width="100%"></div>
+		<div><img src="../img/gem_tabletr.png" width="100%"></div>
+	</div>
+
+	<div class="box_twothird">
+		<div class="item_onethird">
+			<h3>Navigation in TV land</h3>
+			<p>Although research showed us plenty of our users were cable cutters, there were still plenty using multiple devices to stream Gem to their televisions and enjoy the content on their big screen.</p>
+			<p>
+			Mockups were created for TvOS and AndroidTV, our 2 main TV streaming devices. With these TV solutions came the ability to navigate through remote controls, D-pads and even swipe gestures. </p>
+			<p>
+			Both platforms came with very different native components for text input, so the design system had to have a lot of flexibility here to not force the user into using a pattern that was off from the rest of their TV apps.</p>
+			<p>
+			Screen real estate is paramount, and we did not want the user to ever be far away from accessing the navigation, or jumping back to a swimlane they were on.
+			</p>
+		</div>
+		<div class="item_twothird">
+			<img src="../img/gem_junos.png" width="100%">
+		</div>
+	</div>
+
+	<div class="box_middle">
+			<h3>Wireframes set the ground rules</h3>
+			<p>One of the things we were extra sticky about was the source of truth that the wireframes would provide for developers and analysts. We made sure that naming conventions in our wireframes were carried over to the developers side, to ensure we were all talking about the same ‘things’ at every step.</p>
+			<p>Wireframes were stored in Abstract and fully inspectable by developers. Although most elements were inspectable, we did mark up spacing blocks visually. Spacing and margins were grouped together with their respective components to show what disappears when a part of the wireframe isnt used.</p>
+	</div>
+
+	<div class="spacer_30"></div>
+
+	<div class="box_full gemhero_wires">
+	</div>
+
+	<div class="spacer_60"></div>
+
+	<div class="box_twohalf">
+		<div class="item_onehalf">
+			<h3>Supporting allll the devices</h3>
+			<p>Streaming platforms are expected to run on just about anything, and users definitely expect to pick up where they left off, whether it be on the train or in the living room.</p>
+			<p>We used a ‘Large’ desktop breakpoint as the starting point for most new designs, and worked our way down to 5 breakpoints that covered web use on a mobile phone up to a desktop. From there we could reuse some designs for iOS and Android mobile and tablet devices. Portrait and landscape mocks had to be factored in later to accomodate newer WCAG accessibility needs.</p>
+			<p>TV was designed at 1920x1080, but we also future proofed a lot of the assets at 4K resolution. Not overwhelming the user with huge payloads on TV was a big issue that we tried to solve with smarter preloading.</p>
+		</div>
+		<div class="item_onehalf">
+			<img src="../img/gem_devices.png" width="100%"></div>
+		</div>
+	</div>
+
+	<div class="spacer_40"></div>
+
+	<div class="box_twohalf">
+		<div class="item_onehalf">
+			<h3>A system for multiple products</h3>
+			<p>The design system was made for both the French and English products, so most components had theme A and B variants. The components themselves had the exact same structure, but things like colours and icon libraries would get switched up.</p>
+			<p>Development time was hardly affected since the base colours and icons were established from the beginning. When previewing the developed components in Storybook, we were able to flip a switch to show the French and English versions of every component.</p>
+			<p>By the end we had about a dozen libraries for components, comprising of buttons, typography, navigation, colours and other fundamentals. In addition to those libraries, we would create a new file for each section that would be linked to those libraries.</p>
+		</div>
+		<div class="item_onehalf">
+			<img src="../img/gem_libraries.png" width="100%"></div>
+		</div>
+	</div>
+
+	<div class="box_full gemhero_butts">
+	</div>
+
+	<div class="box_twohalf" style="margin-top: 0px;">
+		<div class="item_onehalf">
+			<h3>Endless combinations of layout</h3>
+			<p>Once we had all our components designed, we were looking at the bigger system of how they would come together to form pages.</p>
+			<p>Instead of creating a template for ‘Home’, a template for ‘Movies’, we decided to keep it even more flexible. A page would be titled according to the components it used, as we had multiple types of headers, grid layouts, special swimlanes etc.</p>
+			<p>When the backend was putting together the Homepage, stakeholders can add their oh so important input in how they would like it constructed. Since we were creating 2 different products for 2 groups of stakeholders, it allowed each product to handle their layout differently, and not have to all agree on the same.</p>
+		</div>
+		<div class="item_onehalf">
+			<h3>A/B testing expedited</h3>
+			<p>Because we were tackling the layouts of each page in a modular way, we could easily swap out a hero image for a different hero treatment that we already had, and quickly test that out. Swapping components back in for different versions of themselves made A/B testing quick and low overhead for developers.</p>
+			<p>In some cases, one product was able to benefit off of the testing of the other product. The French version would try out different approaches because of their more limited library, and the English side could learn from those tests.</p>
+			<p>It was pretty neat seeing both research sides benefiting off of the other’s tests. </p>
+		</div>
+	</div>
+
+	<div class="box_full gemhero_laptops">
+	</div>
+
+	<div class="box_twohalf">
+		<div class="item_onehalf">
+			<img src="../img/gem_warigami.png" width="100%" />
+		</div>
+		<div class="item_onehalf">
+			<img src="../img/gem_mansbridge.png" width="100%" />
+		</div>
+	</div>
+
+
+		<div class="spacer_60"></div>
+	<div class="spacer_60"></div>
+	<div class="spacer_60"></div>
+	<div class="spacer_30"></div>
+
+	<a href="ottcms.html">
+	<div class="next_items" style="background-color: #141414">
+		<div class="next_two">
+			<div class="next_title">
+				<div>Next</div>
+				<div class="next_project">Over The Top CMS</div>
+			</div>
+			<div><img src=../img/right_arrow.svg width="55px"> </div>
+		</div>
+	</div>
+	</a>
+
+
+	<div class="footer">
+		<div class="footflex">
+			<div class="contactme">
+				<div class="contactmoi">
+				Contact Me
+				</div>
+				<div class="address">
+					<div>127 Prince Edward Drive<br><br>Toronto, Ontario, Canada</div>
+					<div>E Kellykeenan@gmail.com<br><br>T 647 974 9467</div>
+				</div>
+			</div>
+			<div class="social">
+				<div class="contactmoi">
+					Social
+				</div>
+
+				<div class="address">
+					<div><a href="http://www.linkedin.com/in/kelkeenan" target="_blank">LinkedIn</a><br><br><a href="https://www.instagram.com/yoquierotacokell" target="_blank">Instagram</a><br><br><a href="https://nbatopshot.com/user/@MagicBronson/moments" target="_blank">Top Shot</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="back">
+	<a href="../index.html">
+	<svg class="backy" width="50" height="50" viewBox="0 0 50 50" fill="white" xmlns="http://www.w3.org/2000/svg">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25ZM26.4083 16.4461C27.1926 17.2239 27.1979 18.4902 26.4201 19.2745L21.8001 23.9332H33C34.1046 23.9332 35 24.8286 35 25.9332C35 27.0378 34.1046 27.9332 33 27.9332H21.8002L26.4201 32.5917C27.1979 33.376 27.1926 34.6423 26.4083 35.4201C25.624 36.1979 24.3577 36.1926 23.5799 35.4083L15.591 27.3526C15.5499 27.3118 15.5106 27.2693 15.4732 27.2251C15.3517 27.0818 15.2535 26.9254 15.1788 26.761C15.0652 26.5113 15.0013 26.2342 15 25.9424C15 25.9393 15 25.9362 15 25.9332C15 25.9269 15 25.9207 15.0001 25.9144C15.0024 25.6583 15.0529 25.4137 15.143 25.1892C15.2396 24.9476 15.3853 24.7211 15.5799 24.5248L23.5799 16.4579C24.3577 15.6736 25.624 15.6683 26.4083 16.4461Z" />
+	</svg>
+	</a>
+</div>
+
+<div class="cursor"></div>
+</body>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+var cursor = $(".cursor");
+
+    $(window).mousemove(function(e) {
+        cursor.css({
+            top: e.clientY - cursor.height() / 2,
+            left: e.clientX - cursor.width() / 2
+        });
+    });
+
+	$(".toronto")
+        .mouseenter(function() {
+            cursor.css({
+                   background: "url(https://upload.wikimedia.org/wikipedia/commons/4/4b/Raccoon_getting_in_trouble_%28cropped%29.jpg) center",
+                   "background-size": "cover",
+                   width: "160px",
+                   height: "160px",
+                   "mix-blend-mode": "normal"
+
+            });
+        })
+        .mouseleave(function() {
+            cursor.css({
+                background: "",
+                width: "15px",
+                height: "15px",
+                "mix-blend-mode": "difference"
+            });
+        });
+
+    $(".kelly")
+        .mouseenter(function() {
+            cursor.css({
+                   background: "url(https://upload.wikimedia.org/wikipedia/commons/4/4b/Raccoon_getting_in_trouble_%28cropped%29.jpg) center",
+                   "background-size": "cover",
+                   width: "160px",
+                   height: "160px",
+                   "mix-blend-mode": "normal"
+
+            });
+        })
+        .mouseleave(function() {
+            cursor.css({
+                background: "",
+                width: "15px",
+                height: "15px",
+                "mix-blend-mode": "difference"
+            });
+        });
+
+    $("a")
+        .mouseenter(function() {
+			cursor.css({
+                transform: "scale(1.7)"
+            });
+        })
+        .mouseleave(function() {
+           cursor.css({
+                transform: "scale(1)"
+            });
+        });
+});
+</script>
+</html>
